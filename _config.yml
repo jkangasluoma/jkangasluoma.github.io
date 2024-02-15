@@ -1,0 +1,6 @@
+# Jekyll overrides.
+plugins:
+  - jekyll-feed
+title: "Jargon / lyhärit"
+description: "Elokuvakommenttien aatelia, vaikka itse sanonkin"
+author: jkangasluoma

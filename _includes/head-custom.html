@@ -1,0 +1,17 @@
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
+<link rel="icon" href="/favicon.ico" />
+<meta name="robots" content="none,noarchive" />
+<style>
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: #ddd;
+        background: #121212;
+      }
+    }
+</style>
+<script type="speculationrules">
+  {
+    "prerender": [{ "where": { "href_matches": "/*" }, "eagerness": "moderate" }],
+    "prefetch": [{ "where": { "href_matches": "/*" }, "eagerness": "moderate" }]
+  }
+</script>
